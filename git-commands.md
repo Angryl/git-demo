@@ -52,42 +52,60 @@ as the commut message.
 
 ```ls ~/.ssh```
 on executing the above command if you see something like this
-![sshcommand output]()
+![sshcommand output](https://github.com/Angryl/git-demo/blob/master/assets/ssh%20command%201.PNG)
+
 this means you havent setup any ssh keys yet.
 
-__Now run these commnads__
-![ssh keygen]()
+###### Now run these commnad
+
+![ssh keygen](https://github.com/Angryl/git-demo/blob/master/assets/sshkeygen.PNG)
+
 and then it will ask for keys file location just press ```Enter``` for the default location
-![ssh keygen location]()
+
+![ssh keygen location](https://github.com/Angryl/git-demo/blob/master/assets/ssh%20confirmation.PNG)
+
 and then it will ask to enter a passhrase , Do nothing just pres ```Enter```
-![asking for passphrase ]()
+![asking for passphrase ](https://github.com/Angryl/git-demo/blob/master/assets/ssh%20confirmation%20again.PNG)
+
 and then again it will ask to retype the passphrase, just press the ```Enter ``` again
-![again asking for passphrase]()
+![again asking for passphrase](https://github.com/Angryl/git-demo/blob/master/assets/ssh%20confirmation%20passphrse.PNG)
+
 and finally your keys generated
-![ssh keys generated]()
+![ssh keys generated](https://github.com/Angryl/git-demo/blob/master/assets/final%20keygen.PNG)
 
 To check the keys type
-![sshkeys]()
-and there you will find the two pair of keys names ```id_rsa``` and ```id_rsa.pub``` private and public keys respectively.
 
-__its time to add the keys __
+![sshkeys](https://github.com/Angryl/git-demo/blob/master/assets/ssh%20keys.PNG)
+
+there you will find the two pair of keys names ```id_rsa``` and ```id_rsa.pub``` private and public keys respectively.
+
+###### Its time to add the keys
 go to the repository for which you want to use.
 and Before adding the keys we have to start the ```ssh -agent```
 for that use command:
-![eval()]()
-and the add private keys to repository
-![ssh-add..]()
 
+![eval()](https://github.com/Angryl/git-demo/blob/master/assets/evalcommand.PNG)
+
+and the add private keys to repository
+
+![ssh-add..](https://github.com/Angryl/git-demo/blob/master/assets/affkeys%20privte.PNG)
 now you private keys added Successfully.
-now its time to add the public key to the ```GitHub ``` account in which you want to upload the files using git.
+
+##### now its time to add the public key 
+> Add the ```GitHub ``` account in which you want to upload the files using git.
 for that:
+
 > login into ```Github``` account
 > and the goto settings of the account
 > and then click on ```SSH and GPG keys```
 > and there you will see something like this.
-![SSH and GPG keys]()
+
+![SSH and GPG keys](https://github.com/Angryl/git-demo/blob/master/assets/sshand%20gpg%20keys.PNG)
+
 > then click on button ```New SSH keys```
-![NEw sshkeys]()
+
+![NEw sshkeys](https://github.com/Angryl/git-demo/blob/master/assets/adding%20pub%20lic%20keyts.PNG)
+
 > and then add the title in the __Title__ section and then paste the public keys in __Key__ section
 > click on ```Add SSH Keys```
 > Now your public keys addes Successfully
