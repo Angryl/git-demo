@@ -110,6 +110,11 @@ for that:
 > click on ```Add SSH Keys```
 > Now your public keys addes Successfully
 
+### Set the Origin path 
+
+- Now you have to set the *Origin* path of your ```Github``` Repository to ```Git```
+- then push your code to ```Github```
+
 
 
 
