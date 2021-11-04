@@ -112,8 +112,8 @@ for that:
 
 ### Set the Origin path 
 
-- Now you have to set the *Origin* path of your ```Github``` Repository to ```Git```
-- then push your code to ```Github```
+- Now you have to set the *<Origin>* path of your ```Github Repository``` to ```Git's Local Repository```
+- then push your code to ```Github Repostiory``` online
 
 
 
